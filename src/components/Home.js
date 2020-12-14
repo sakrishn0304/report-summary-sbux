@@ -37,7 +37,7 @@ class Home extends Component {
             <div className = 'navbar_home'>
                 <Navbar>
                     <Nav style={{paddingLeft:"9px"}}>
-                        <Link className = 'nav_text' to = {"/Home"}>Home</Link>
+                        <Link className = 'nav_text' to = {"/"}>Home</Link>
                          <Link className = 'nav_text' to = {"/Summary"}>Portfolio Summary</Link>
                         <Link className = 'nav_text' onClick={this.moveToTestPage}>Incidents Trends and SLA Metrics</Link>
                         <Link className = 'nav_text'>Risks,Improvement and Action Items</Link> 
