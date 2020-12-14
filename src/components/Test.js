@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import '../App';
 import 'bootstrap/dist/css/bootstrap.css';
-import {   Card, CardImg, CardText, CardBody,CardImgOverlay,CardSubtitle,CardTitle,Row, 
-    Col,CardHeader,CardBlock,CardFooter, CardDeck } from 'reactstrap';
-import { Button } from 'reactstrap';
-import { Legend,PieChart } from 'react-minimal-pie-chart';
-import LineChart from 'react-linechart';
+import { Row, Col} from 'reactstrap';
 import {Bar,Line,Pie} from 'react-chartjs-2';
-// import { BarChart } from 'react-charts'
-import PercentageCircle from 'reactjs-percentage-circle';
 
 class Test extends Component {
     render() {
@@ -71,61 +65,43 @@ class Test extends Component {
               data: [65, 59, 80, 81, 56]
             }
           ]
-        }
-        
-      
-        
+        }    
         
         return(
-          <>
-         
-          <Row>
-            <Col lg-4>
-            <div >
-              <Pie data={state1} />
-          
-            
-            </div>
-            </Col>
-            <Col lg-4>
-              <div>
-              <Line            
-              data={state2}
-              />
-              </div>
-           
-            </Col>
-            <Col lg-4>
-            <div >
-            <Bar
-          data={state}
-          // options={{
-          //   title:{
-          //     display:true,
-          //     text:'Average Rainfall per month',
-          //     fontSize:20
-          //   },
-          //   legend:{
-          //     display:true,
-          //     position:'right'
-          //   }
-          // }}
-        />
-        </div>
-            </Col>
-          </Row>
-          <div>
-          
-          </div>
-
-        
-
-
-
-
-           
-        </>
-       
+          <>         
+            <Row>
+              <Col lg-4>
+                <div >
+                  <Pie data={state1} />            
+                </div>
+              </Col>
+              <Col lg-4>
+                <div>
+                  <Line            
+                  data={state2}
+                  />
+                </div>          
+              </Col>
+              <Col lg-4>
+                <div >
+                  <Bar
+                    data={state}
+                    // options={{
+                    //   title:{
+                    //     display:true,
+                    //     text:'Average Rainfall per month',
+                    //     fontSize:20
+                    //   },
+                    //   legend:{
+                    //     display:true,
+                    //     position:'right'
+                    //   }
+                    // }}
+                  />
+                </div>
+              </Col>
+            </Row>
+          </>       
         )
     }
 }

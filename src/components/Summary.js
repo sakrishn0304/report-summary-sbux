@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import '../App';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Summary.css';
-import img from '../images/starbucks_img.png';
-import { PieChart } from 'react-minimal-pie-chart';
-import {   Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle,Row, Col, CardDeck, Container } from 'reactstrap';
+import {   Card, CardText, CardBody,
+    CardTitle,Row, Col, CardDeck } from 'reactstrap';
 import { Button } from 'reactstrap';
 import Home from './Home';
 import Test from './Test';
