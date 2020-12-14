@@ -1,0 +1,18 @@
+.header_home_text{
+    padding-top: 80px;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav_text{
+     font-weight: bold;
+     font-size: large;
+     padding: 0.5rem 3.7rem;
+     cursor:pointer;
+}
+
+.navbar_home{
+    background-color: yellow;
+    padding: 15px;
+}

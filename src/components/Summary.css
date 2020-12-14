@@ -1,0 +1,88 @@
+.summary_subhead_text_left{
+    
+    background-color: lightgreen;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    /* max-width: 579px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.summary_subhead_text_right{
+    /* margin-left: 134px; */
+    background-color: green;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* max-width: 668px; */
+}
+
+.summary_content_row{
+    margin-right: -3px;
+    margin-left: 0px;
+}
+
+.summary_head_text{
+    padding-top: 20px;
+    font-size: 22pt;
+    font-weight: bold;
+    padding-left: 20px;
+    color: blue;
+}
+
+.summary_content_right{
+    border-right-style: groove;
+    border-left: groove;
+    border-width: thin;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.summary_content_left{
+    border-right-style: groove;
+    border-left: groove;
+    border-width: thin;
+    padding-left: 5px;
+    line-height: 19pt;
+    text-align: justify;
+
+}
+
+.summary_head{
+    padding-left: 20px;
+}
+
+.summary_body{
+    line-height: 27pt;
+    font-weight: 600;
+    font-size: small;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.splitScreen{
+    display: 'flex';
+    flex-direction: 'row';
+    background-color: lightpink;
+}
+
+.summary_subhead{
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.card_title{
+    background-color: aqua;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.card_deck{
+    max-width: 680px;
+    padding: 20px;
+}
