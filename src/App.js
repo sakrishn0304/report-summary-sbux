@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Summary from './components/Summary';
 import Home from './components/Home';
 import Test from './components/Test';
+import IncidentAnalysis from './components/IncidentAnalysis';
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
         <Switch>        
           <Route path="/Summary" component = {Summary}/>  
           <Route exact="true" path="/" component = {Home}/> 
-          <Route path="/Test" component = {Test}/>   
+          <Route path="/Test" component = {Test}/> 
+          <Route path="/IncidentAnalysis" component = {IncidentAnalysis}/>   
         </Switch>
       </BrowserRouter>
     );

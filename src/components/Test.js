@@ -3,6 +3,9 @@ import '../App';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Row, Col} from 'reactstrap';
 import {Bar,Line,Pie} from 'react-chartjs-2';
+import circleImage from '../images/circle.jpg';
+import { Circle } from 'react-konva';
+
 
 class Test extends Component {
     render() {
@@ -17,11 +20,18 @@ class Test extends Component {
                    'April', 'May'],
           datasets: [
             {
-              label: 'Rainfall',
+              label: 'Rainfall-1',
               backgroundColor: 'rgba(75,192,192,1)',
               borderColor: 'rgba(0,0,0,1)',
-              borderWidth: 2,
+              borderWidth: 1,
               data: [65, 59, 80, 81, 56]
+            },
+            {
+              label: 'Rainfall-2',
+              backgroundColor: 'yellow',
+              borderColor: 'red',
+              borderWidth: 1,
+              data: [165, 159, 60, 181, 156]
             }
           ]
         }
@@ -56,21 +66,31 @@ class Test extends Component {
                    'April', 'May'],
           datasets: [
             {
-              label: 'Rainfall',
+              label: 'Rainfall-1',
               fill: false,
               lineTension: 0.5,
               backgroundColor: 'rgba(75,192,192,1)',
               borderColor: 'rgba(0,0,0,1)',
               borderWidth: 2,
               data: [65, 59, 80, 81, 56]
+            },
+            {
+              label: 'Rainfall-2',
+              fill: false,
+              lineTension: 0.5,
+              backgroundColor: 'rgba(75,192,75,1)',
+              borderColor: 'yellow',
+              borderWidth: 2,
+              data: [95, 90, 77, 18, 40]
             }
           ]
         }    
         
         return(
-          <>         
+          <>  
+          
             <Row>
-              <Col lg-4>
+              <Col lg-4>              
                 <div >
                   <Pie data={state1} />            
                 </div>

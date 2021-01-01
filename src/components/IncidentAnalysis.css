@@ -1,0 +1,53 @@
+.chart_div{
+    border-bottom: solid;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.incidentAnalysis_head {
+    background-color: green;
+    color:white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 5px;
+}
+
+.incidentAnalysis_content_left{
+   
+    padding-left: 5px;
+    line-height: 19pt;
+    text-align: justify;
+
+}
+
+.incidentAnalysis_table{
+   margin: auto;
+    border:2px solid rgb(246, 246, 246);
+    width: 90%;
+}
+
+.incidentAnalysis_table_head{
+    
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 14px;
+    padding:15px;
+    line-height: 20px;
+    background-color: rgb(10, 241, 79);
+    border: 2px solid black;
+}
+.incidentAnalysis_table_content{
+    
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    padding:15px;    
+    border: 2px solid black;
+}
